@@ -1,0 +1,6 @@
+﻿services:
+  search-financial-data-api:
+    image: search-financial-data-api
+    build:
+      context: .
+      dockerfile: search-financial-data-api/Dockerfile
